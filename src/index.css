@@ -1,3 +1,6 @@
+/*  */
+/*  */
+
 /*
 =============== 
 Variables
@@ -143,17 +146,21 @@ Stock Photos
   width: 90vw;
   max-width: var(--max-width);
   margin: 0 auto;
+  /* border: 1px solid #000; */
 }
+
 .search-form {
   display: flex;
 }
 .form-input {
   width: 100%;
 }
+
 .form-input,
 .submit-btn {
   padding: 0.75rem 1.25rem;
   border: none;
+  /* border: 10px solid red; */
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   font-size: 1.5rem;
@@ -199,6 +206,7 @@ Stock Photos
   height: 2.5rem;
   border-radius: 50%;
 }
+
 .photo-info {
   position: absolute;
   width: 100%;
@@ -222,6 +230,7 @@ Stock Photos
   }
   .search-form {
     max-width: var(--fixed-width);
+    /* border: 10px solid red; */
   }
 }
 
