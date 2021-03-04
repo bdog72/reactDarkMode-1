@@ -100,7 +100,7 @@ function App() {
         <div className='photos-center'>
           {photos.map((image, index) => {
             // console.log(image);
-            return <Photo key={image.id} {...image} />;
+            return <Photo key={index} {...image} />;
           })}
         </div>
         {loading && <h2 className='loading'>Loading...</h2>}
